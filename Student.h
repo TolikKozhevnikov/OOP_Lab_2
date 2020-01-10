@@ -28,5 +28,6 @@ public:
 		return this->Name1 < st.Name1;
 	};
 	virtual int GetRating() = 0;
+	virtual int GetRatingAgain() = 0;
 };
 
