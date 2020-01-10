@@ -8,3 +8,6 @@ StudentCouncil::StudentCouncil(const string& Name1, const string& Name2, const s
 int StudentCouncil::GetRating() {
 	return rand() % 3 + 3;
 }
+int StudentCouncil::GetRatingAgain() {
+	return rand() % 3 + 3;
+}
