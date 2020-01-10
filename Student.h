@@ -12,11 +12,12 @@ class Student
 {
 private:
 	vector <string> Groups;
-public:
-	Student() {};
+protected:
 	string Name1;
 	string Name2;
 	string Name3;
+public:
+	Student() {};
 	Student(const string& Name1, const string& Name2, const string& Name3);
 	const string& GetName1();
 	const string& GetName2();
