@@ -25,7 +25,7 @@ public:
 	void JoinToGroup(Group& group);
 	void LeftFromGroup(const string& GroupName);
 	bool operator < (const Student& st) const {
-		return this->Name1 > st.Name1;
+		return this->Name1 < st.Name1;
 	};
 	virtual int GetRating() = 0;
 };
