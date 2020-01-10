@@ -8,3 +8,6 @@ StudentDefualt::StudentDefualt(const string& Name1, const string& Name2, const s
 int StudentDefualt::GetRating(){
 	return rand() % 5 + 1;
 }
+int StudentDefualt::GetRatingAgain() {
+	return rand() % 5 + 1;
+}
