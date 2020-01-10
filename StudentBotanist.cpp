@@ -8,3 +8,6 @@ StudentBotanist::StudentBotanist(const string& Name1, const string& Name2, const
 int StudentBotanist::GetRating() {
 	return rand() % 2 + 4;
 }
+int StudentBotanist::GetRatingAgain() {
+	return rand() % 2 + 4;
+}
